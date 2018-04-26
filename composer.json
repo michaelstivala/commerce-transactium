@@ -1,7 +1,6 @@
 {
   "name": "michaelstivala/commerce-transactium",
   "description": "Transactium payment gateway plugin for Craft Commerce 2",
-  "version": "0.1.0",
   "type": "craft-plugin",
   "keywords": [
     "transactium",
@@ -10,7 +9,7 @@
     "omnipay",
     "yii2"
   ],
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Michael Stivala",
