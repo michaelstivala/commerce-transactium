@@ -18,7 +18,7 @@
   ],
   "require": {
     "craftcms/commerce": "^2.0.0-alpha.5",
-    "craftcms/commerce-omnipay": "^1.0.0",
+    "craftcms/commerce-omnipay": "^1.0.1",
     "michaelstivala/omnipay-transactium": "^0.1.0"
   },
   "autoload": {
