@@ -18,6 +18,15 @@
     errors: gateway.getErrors('password')
 }) }}
 
+{{ textField({
+    label: 'Tag'|t('commerce'),
+    id: 'tag',
+    class: 'ltr',
+    name: 'tag',
+    value: gateway.tag,
+    errors: gateway.getErrors('tag')
+}) }}
+
 {{ lightswitchField({
      label: "Test mode?"|t('commerce'),
      name: 'testMode',

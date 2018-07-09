@@ -29,6 +29,11 @@ class Gateway extends OffsiteGateway
     public $password;
 
     /**
+     * @var string
+     */
+    public $tag;
+
+    /**
      * @var boolean
      */
     public $testMode = false;
@@ -107,6 +112,7 @@ class Gateway extends OffsiteGateway
 
         $gateway->setUsername($this->username);
         $gateway->setPassword($this->password);
+        $gateway->setTag($this->tag);
         $gateway->setTestMode($this->testMode);
 
         return $gateway;
